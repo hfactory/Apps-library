@@ -32,9 +32,9 @@ Troubleshooting: If the server fails to start because Java is not found, set env
 
 #### List of available open-source applications
 
-| Application | Description                                                      | source                                        | build                                       |
-| ----------- | ---------------------------------------------------------------- | --------------------------------------------- | ------------------------------------------- |
-| Hotspot     | HBase web app using composite rowkeys for geographic coordinates | [github](https://github.com/hfactory/Hotspot) | [zip](http://hfactory.io/assets/Hotspot.zip |
+| Application | Description                                                      | source                                        | build                                        |
+| ----------- | ---------------------------------------------------------------- | --------------------------------------------- | -------------------------------------------- |
+| Hotspot     | HBase web app using composite rowkeys for geographic coordinates | [github](https://github.com/hfactory/Hotspot) | [zip](http://hfactory.io/assets/Hotspot.zip) |
 
 #### Launch open-source apps
 
