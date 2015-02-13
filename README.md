@@ -34,7 +34,7 @@ Troubleshooting: If the server fails to start because Java is not found, set env
 
 | Application | Description                                                      | source                                        | build                                        |
 | ----------- | ---------------------------------------------------------------- | --------------------------------------------- | -------------------------------------------- |
-| Hotspot     | HBase web app using composite rowkeys for geographic coordinates | [github](https://github.com/hfactory/Hotspot) | [zip](http://hfactory.io/assets/Hotspot.zip) |
+| Hotspot     | HBase web app using composite rowkeys for geographic coordinates | [github](https://github.com/hfactory/Hotspot) | [zip](http://hfactory.io/assets/Hotspot-1.2.1.zip) |
 
 #### Launch open-source apps
 
