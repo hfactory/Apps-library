@@ -2,7 +2,7 @@ Apps-library
 ============
 # [HFactory](http://hfactory.io)
 
-HFactory is a Scala-based micro-framework to simplify and speed up the development of HBase powered web applications. This github repository contains open-source applications, samples and utilities complementing the HFactory platform.
+HFactory Tools is a Scala-based micro-framework to simplify and speed up the development of HBase powered web services and operational applications. This github repository contains open-source applications, samples and utilities complementing the HFactory platform.
 
 ## Table of contents
 
@@ -21,9 +21,9 @@ To run applications, an HFactory Server is needed. A fully-featured version can 
 #### Start your own HFactory Server
 
 To this end, you have three different options:
-- Use the pre-configured [Docker image](http://hfactory.io/getting-started/docker-start/)
-- Download the [HFactory Server archive](http://hfactory.io/getting-started/server-start/).
-- Use the [Azure Sandbox](https://azure.microsoft.com/en-us/marketplace/partners/ubeeko/hfactory-tools-sandbox/)
+- Use the pre-configured [Docker image](http://hfactory.io/getting-started/docker-start/);
+- Download the [HFactory Server archive](http://hfactory.io/getting-started/server-start/);
+- Use the [Azure Sandbox](https://azure.microsoft.com/en-us/marketplace/partners/ubeeko/hfactory-tools-sandbox/).
 
 #### List of available open-source applications
 
