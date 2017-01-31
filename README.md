@@ -14,21 +14,16 @@ HFactory is a Scala-based micro-framework to simplify and speed up the developme
 
 ## <a href="#prerequisites" id="prerequisites">Prerequisites</a>
 
-To run applications, an HFactory Server is needed. A fully-featured version can be downloaded free of charge and without prior registration from [hfactory.io](http://hfactory.io/download.html#server). For production use (defined as working on a dataset of more than 100k HBase cells), you will need a production license from [Ubeeko](http://ubeeko.com).
+To run applications, an HFactory Server is needed. A fully-featured version can be downloaded free of charge and without prior registration from [hfactory.io](http://hfactory.io/getting-started/).
 
 ## <a href="#getting-started" id="getting-started">Getting started</a>
 
-#### Start your HFactory Server
+#### Start your own HFactory Server
 
-- Download the HFactory Server archive from [hfactory.io](http://hfactory.io/download.html).
-- Install the server by unzipping the HFactory Server archive in the /usr/local directory or one of your choosing and modify the server's configuration file accordingly (in particular, the app store path and the license path).
-- Choose the HBase configuration file to use by setting hserver.hbase.conf, and make it to point to your HBase instance. Base platform-specific configurations are provided in the HFactory Server archive:
--- hbase-site.properties for Cloudera or Apache;
--- hbase-site.properties.hortonworks for Hortonworks;
--- hbase-site.properties.mapr for MapR.
-- Start the server with /usr/local/hfactory-server/bin/start-server.sh.
-
-Troubleshooting: If the server fails to start because Java is not found, set environment variable JAVA_HOME to the location of the Java runtime before starting the server.
+To this end, you have three different options:
+- Use the pre-configured [Docker image](http://hfactory.io/getting-started/docker-start/)
+- Download the [HFactory Server archive](http://hfactory.io/getting-started/server-start/).
+- Use the [Azure Sandbox](https://azure.microsoft.com/en-us/marketplace/partners/ubeeko/hfactory-tools-sandbox/)
 
 #### List of available open-source applications
 
@@ -38,7 +33,7 @@ Troubleshooting: If the server fails to start because Java is not found, set env
 
 #### Launch open-source apps
 
-- Copy or unzip the application folder exported from the studio in /usr/local/hfactory-server/apps (or in your custom app store path)
+- Copy or unzip the application folder exported in /usr/local/hfactory-server/apps (or in your custom app store path)
 - Go to the server administration page http://localhost:18090 by default
 - Create the tables if needed
 - Start the application
@@ -48,7 +43,7 @@ More information in the [documentation](#documentation)
 
 #### Build your own custom apps
 
-To modify showcase apps or create your own ones, best is to use [HFactory Studio](http://hfactory.io/download.html#studio), the free, fully-packaged IDE tailored for the HFactory platform. Just place the github project in the workspace folder and import it with eclipse. And then it's up to you, you can obviously keep your apps in-house or decide to <a href="#contributing">share</a> part or all of them with the community.
+Full documentation and build instructions are readily available in our [App Developer Guide](http://hfactory.io/documentation/app-developer-guide/). Once you are done, you can obviously keep your apps in-house or decide to <a href="#contributing">share</a> part or all of them with the community.
 
 ## <a href="#contributing" id="contributing">Contributing</a>
 
