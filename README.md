@@ -29,7 +29,7 @@ To this end, you have three different options:
 
 | Application | Description                                                      | source                                        | build                                        |
 | ----------- | ---------------------------------------------------------------- | --------------------------------------------- | -------------------------------------------- |
-| Hotspot     | HBase web app using composite rowkeys for geographic coordinates | [github](https://github.com/hfactory/Hotspot) | [zip](http://hfactory.io/assets/Hotspot-1.2.1.zip) |
+| Hotspot     | HBase web app using composite rowkeys for geographic coordinates | [github](https://github.com/hfactory/Hotspot) | [zip](https://github.com/hfactory/Hotspot/releases) |
 
 #### Launch open-source apps
 
