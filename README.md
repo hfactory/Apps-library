@@ -21,9 +21,9 @@ To run applications, an HFactory Server is needed. A fully-featured version can 
 #### Start your own HFactory Server
 
 To this end, you have three different options:
-- Use the pre-configured [Docker image](http://hfactory.io/getting-started/docker-start/);
-- Download the [HFactory Server archive](http://hfactory.io/getting-started/server-start/);
-- Use the [Azure Sandbox](https://azure.microsoft.com/en-us/marketplace/partners/ubeeko/hfactory-tools-sandbox/).
+- Use the pre-configured [Docker image](http://hfactory.io/getting-started/docker-start/)
+- Download the [HFactory Server archive](http://hfactory.io/getting-started/server-start/)
+- Use the [Azure Sandbox](https://azure.microsoft.com/en-us/marketplace/partners/ubeeko/hfactory-tools-sandbox/)
 
 #### List of available open-source applications
 
@@ -38,8 +38,6 @@ To this end, you have three different options:
 - Create the tables if needed
 - Start the application
 - Click the application name once it is started
-
-More information in the [documentation](#documentation)
 
 #### Build your own custom apps
 
